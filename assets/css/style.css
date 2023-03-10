@@ -1,0 +1,168 @@
+body{
+    background-color:rgb(251, 202, 202);
+
+}
+
+/* .title{
+    background-color: aqua;
+} */
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 50px;
+    font-size: 35px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+input{
+    margin: 10px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+.addTodo{
+    background-color:burlywood;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* min-width: 10rem; */
+    border-radius: 15px;
+    padding: 20px 40px;
+    border: 2px solid green;
+    /* box-shadow: ; */
+}
+/* .addTodo:hover{
+    background-color:rgb(253, 167, 196);
+} */
+
+.addbtn , input{
+    background-color:rgb(255, 203, 135) ;
+    /* background-color: black;
+    color: white; */
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    padding: 5px;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.box{
+    background-color:burlywood;
+    margin: 15px;
+    width: 350px;
+    border-radius: 15px;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(255, 145, 0);
+    overflow-wrap: break-word;
+}
+
+.flexRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* width: 400px; */
+}
+
+.title{
+    background-color: black;
+    color: white;
+    width: 100%;
+    /* margin: 15px; */
+    border-radius: 15px; 
+   text-align: center; 
+   font-size: 35px;
+   padding:5px 0px;
+}
+
+.description{
+    padding: 20px;
+}
+.btncol{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.btn{
+    margin: 10px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    /* background-color: white; */
+
+}
+
+.btn a{
+    text-decoration: none;
+    /* color: white; */
+    /* background-color: white; */
+}
+
+.edit{
+    /* background-color: black; */
+    background-color: white;
+  
+}
+
+.delete{
+    background-color:  white;;
+}
+
+.btn:hover{
+   
+    background-color: rgb(196, 133, 255);
+}
+
+/* .btn a:hover{
+    color: white;
+} */
+
+.box:hover {
+    background-color: palevioletred;
+    border: 2px solid black;
+    /* color: white; */
+    font-weight: bolder;
+}
+
+img.logo ,img.logo1{
+    max-width: 20px;
+    /* background-color: white; */
+}
+
+img.logo:hover {
+    /* max-width: 20px; */
+    max-width: 30px;
+    /* background-color: white; */
+}
+
+img.logo1:hover {
+    /* max-width: 20px; */
+    max-width: 30px;
+    /* background-color: white; */
+}
