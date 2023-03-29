@@ -1,4 +1,6 @@
-
+//<head>
+   // <link rel = "stylesheet" href="<?php echo base_url('assets/admin/css/campain.css')?>" type="text/css"/>
+//</head>
 
 <head>
 <div>
